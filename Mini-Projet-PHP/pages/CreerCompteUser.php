@@ -36,7 +36,7 @@ if(isset($_POST['btn_submit'])){
 <div class="b-container">
     <div class="b-body">
         <div class="avatar-joueur">
-            <a href="#"><img src="./public/images/img5.jpg" alt=""></a>
+        <a href="#"><img src="./public/images/upload/<?php echo $_SESSION['user']['avatar']?>" alt="img"></a>s
             <h3>Avatar Joueur</h3>
         </div>
         <div class="forml">

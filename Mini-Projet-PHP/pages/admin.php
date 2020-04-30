@@ -9,7 +9,8 @@ is_connect();
             <div class="blog-body">
                 <div class="blog-body-header">
                     <div class="avatar">
-                        <a href="#"><img src="./public/images/img5.jpg" alt=""></a>
+                    <a href="#"><img src="./public/images/upload/<?php echo $_SESSION['user']['avatar']?>" alt="img"></a>
+                    <?php echo $_SESSION['user']['login'];?>
                     </div>
                 </div>
                     <div class="menu">

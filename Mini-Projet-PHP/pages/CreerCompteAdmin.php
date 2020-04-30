@@ -39,7 +39,7 @@ if(isset($_POST['btn_submit'])){
     <strong><h4>S'INSCRIRE</h4></strong><br>
         <h5>Pour proposer des quizz</h5>
             <div class="img-1">
-                <a href="#"><img src="./public/images/img5.jpg" alt=""></a>
+            <a href="#"><img src="./public/images/upload/<?php echo $_SESSION['user']['avatar']?>" alt="img"></a>
                 <h6>Admin</h6>
             </div><br>
                 <div class="forml-2">
