@@ -1,5 +1,5 @@
-<div class="list-quizz">
-        <div class="tabjoueur">
-                         
+<div class="droite-qcm">
+        <div class="quizz">
+                
         </div>
 </div>
