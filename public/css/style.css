@@ -1,0 +1,601 @@
+/*css page index*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #042425;
+    height: 65px;
+    margin-left:3%;
+    margin-right:3%;
+}
+.logo{
+    background-image: url(../images/logo-QuizzSA.png);
+    background-size: 100%;
+    width:65%;
+    height:45%;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+}
+.logo img{
+    width:100%;
+    height:100%;
+}
+.content{
+    background-image:url(../images/img-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 715px;
+    margin-left:3%;
+    margin-right:3%;
+}
+.content img{
+    height:100%;
+    width:100%;
+}
+.header-text{
+    color:white;
+    position:absolute;
+    top:20px;
+    left:45%;
+    font-size: 80%;
+}
+/*css accueil*/
+.blog-container{
+    position: relative;
+    top:3%;
+    left:5%;
+    height:94%;
+    width:92%;
+    background-color: rgb(250, 246, 246);
+    border-radius: 7px;
+}
+.blog-header{
+    height:60px;
+    background-color: darkturquoise;
+}
+.blog-title{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+}
+.blog-body-header{
+    position: absolute;
+    width:40%;
+    height:43%;
+    float:left;
+    margin-left:5px;
+    border: 2px solid white;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.avatar
+{
+    position: relative;
+    width: 100%;
+    height:50%;
+    float:left;
+    margin-left:0px;
+    border: 2px solid white;
+    background-color:darkturquoise;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.avatar img{
+	width: 35%;
+    height: 35%;
+    float:left;
+    padding-left: 10px;
+}
+.menu
+{
+    margin-top:50px;
+    margin-left: 3px;
+    position:absolute;
+}
+.ic-form{
+    height: 35px;
+    width:30px;
+    position:relative;
+    left:89%;
+    top:40px;
+}
+.ic-form-list{
+    background-image: url(../images/ic-liste.png);
+    background-repeat: no-repeat;
+}
+.ic-form-ajout{
+    background-image: url(../images/ic-ajout.png);
+    background-repeat: no-repeat;
+}
+.ic-form-list{
+    background-image: url(../images/ic-liste.png);
+    background-repeat: no-repeat;
+}
+.ic-form-ajout{
+    background-image: url(../images/ic-ajout.png);
+    background-repeat: no-repeat;
+}
+.menu ul
+{
+    margin-top:90px;
+    padding:25px 0px 0px 3px;
+    line-height: 30px;
+}
+.menu li
+{
+    float: left;
+    position: relative;
+    color:rgb(168, 165, 165);
+}
+.menu ul li a
+{
+    color:rgb(168, 165, 165);
+    text-decoration: none;
+    width: 246px;
+    height: 30px;
+    display: block;
+    text-align: left;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.menu ul ul
+{ 
+    position: absolute;
+    top: 31px;
+    visibility: hidden;
+}
+.menu ul li:hover ul
+{
+visibility: visible;
+}
+.menu li:hover
+{
+    background-color: rgb(88, 116, 117);
+}
+.menu ul li ul a:hover 
+{
+    background-color: cadetblue;
+    color: white;
+}
+/*css page connexion*/
+.container{
+    position: relative;
+    top:10%;
+    left:20%;
+    height:50%;
+    width:60%;
+    background-color: white;
+}
+.container-header{
+    height:60px;
+    background-color: darkturquoise;
+}
+.title{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    padding:5px;
+    float:left;
+}
+.input-form{
+    height: 20px;
+    margin:20px 35px;
+    padding:7px;
+}
+.form-control{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 15px;
+    font-weight: bold;
+    color:silver;
+    padding: 0px 10px;
+}
+.error-form{
+    color:red;
+    width:80%;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.icon-form{
+    height: 35px;
+    width:30px;
+    position:relative;
+    left:88%;
+    top:45px;
+}
+.icon-form-login{
+    background-image: url(../images/ic-login.png);
+    background-repeat: no-repeat;
+}
+.icon-form-pwd{
+    background-image: url(../images/ic-password.png);
+    background-repeat: no-repeat;
+}
+.btn-form{
+    margin-top: 30px;
+    padding:7px;
+    color:white;
+    background-color: darkturquoise;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border:1px solid darkturquoise;
+    float:left;
+}
+.link-form{
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color:silver;
+    text-decoration: none;
+    float:left;
+}
+/*creer admin */
+.droite{
+    width:55%;
+    height:439px;
+    float:right;
+    margin-left:3px;
+    border: 1px solid white;
+    background-color:white;
+    border-radius: 15px;
+    margin-top:5px;
+    margin-right:7px;
+}
+.img-1
+{
+    position: relative;
+    width:20%;
+    height:50px;
+    float:right;
+    margin-right:10px;
+    margin-top:3px;
+}
+.img-1 img{
+	width: 100%;
+    height: 100%;
+    
+}
+.forml-2
+{
+    margin-top:8px;
+    margin-right: 0px;
+    position:absolute;
+
+}
+.form2-input{
+    height: 15px;
+    width:55%;
+    margin:15px 30px 0px 10px;
+    padding :10px;
+}
+#file_img{
+    float:right;
+    margin-top: 10px;
+    color:white;
+}
+.btn-form-2{
+    margin: -25px 7px;
+    padding:5px;
+    color:white;
+    background-color: #3addd6;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border:1px solid #3addd6;
+    float:right;
+    width:18%;
+}
+/*creer player*/
+.b-container{
+    position: relative;
+    top:5%;
+    left:5%;
+    height:90%;
+    width:90%;
+    background-color: rgb(250, 246, 246);
+}
+.b-header{
+    height:60px;
+    background-color: darkturquoise;
+}
+.b-title{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+}
+.b-body{
+    position: relative;
+    top:3%;
+    left:5%;
+    height:83%;
+    width:90%;
+    background-color:white;
+    border-radius: 12px;
+}
+.avatar-joueur
+{
+    position: relative;
+    width:25%;
+    height:110px;
+    float:right;
+    margin-right:10px;
+    margin-top:20px;
+}
+.avatar-joueur img{
+	width: 100%;
+    height: 100%;
+    
+}
+.forml
+{
+    margin-top:10px;
+    margin-left: 0px;
+    position:absolute;
+
+}
+.form-input{
+    height: 20px;
+    margin:20px 35px 0px 10px;
+    padding:10px;
+}
+/*css page liste joueur*/
+
+.title-player{
+    width:55%;
+    height:85%;
+    background-color:darkturquoise;
+    float:right;
+    margin:17px 10px;
+    border-radius: 20px;
+    color:black;
+}
+.list-player{
+    margin:7px 10px;
+    width:80%;
+    height: 70%;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.tab-joueurs{
+    margin:auto;
+    text-align:center;
+    width:90%;
+    line-height: 2em;
+}
+.tab-joueurs th{
+    font-size: large;
+    font-weight: bold;
+    color:black;
+    
+}
+/*css jeux*/
+.bj-container{
+    position: relative;
+    top:5%;
+    left:5%;
+    height:95%;
+    width:90%;
+    background-color: rgb(250, 246, 246);
+}
+.bj-container-header{
+    height:60px;
+    background-color: darkturquoise;
+}
+.bj-title{
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    padding:10px;
+}
+.image
+{
+    width:10%;
+    height:46px;
+    float:left;
+    padding:3px;
+}
+.image img{
+	width: 100%;
+    height: 100%;
+}
+.bj-1-container{
+    position: relative;
+    top:5%;
+    left:5%;
+    right:5%;
+    height:80%;
+    width:90%;
+    background-color: white;
+    border-radius: 10px;
+}
+.bj-2-container{
+    position: relative;
+    margin:5% 3%;
+    float:left;
+    border:1px solid white;
+    width:94%;
+    height:90%;
+}
+.bjj{
+    position: relative;
+    top:3%;
+    float:left;
+    border:1px solid darkturquoise;
+    width:57%;
+    height:95%; 
+}
+.bj-3-container{
+    position: relative;
+    top:5%;
+    left:3%;
+    border:1px outset darkturquoise;
+    width:94%;
+    height:25%;
+    background-color:rgb(250, 246, 246); 
+}
+h4{
+    text-align:center;
+    color:black;
+}
+h5{
+    text-align:center;
+    color:black;
+}
+.title-score{
+    width:35%;
+    height:85%;
+    background-color:darkturquoise;
+    float:right;
+    margin:5px 10px;
+    border-radius: 20px;
+    color:black;
+}
+.list-score{
+    margin:7px 10px;
+    width:45%;
+    height: 70%;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.tab-score{
+    margin-top:10px;
+    text-align:center;
+    width:40%;
+    line-height: 2em;
+    color:black;
+}
+.tab-score th{
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+
+/*css page liste question*/
+.list-quizz{
+    width:55%;
+    height:90%;
+    background-color:white;
+    float:right;
+    margin-top:12px;
+    border-radius: 20px;
+}
+/*css page creer question*/
+.droite-qcm
+{
+    width:55%;
+    height:520px;
+    float:right;
+    margin-left:5px;
+    border: 2px solid white;
+    background-color:white;
+    border-radius: 15px;
+    margin-right:2%;
+    margin-left:2%;
+}
+.para
+{
+    color:darkturquoise;
+    padding:7px;
+}
+.quizz
+{
+    border: 1px solid rgb(69, 219, 224);
+    width:95%;
+    height:440px;
+    margin-right:2px;
+    margin-left:3px;
+    position: relative;
+    margin-top:3%;
+}
+.qcm{
+    color:silver;
+    padding:20px;
+}
+.qcm input{
+    height:50px;
+    width:72%;
+    background-color:rgb(235, 229, 229);
+    line-height: 30px;
+}
+.nbrpoint{
+    color:silver;
+    padding:20px;
+}
+.nbpoint{
+    background-color:rgb(235, 229, 229);
+    color:darkturquoise;
+    width:50%;
+    height:20px;
+    line-height: 30px;
+}
+.trep{
+    color:silver;
+    padding:10px;
+}
+.trep select{
+    color:darkturquoise;
+    padding:10px;
+    float:left;
+    background-color:rgb(235, 229, 229);
+}
+.trep option{
+    color:darkturquoise;
+    height:30px;
+}
+.btn-add {
+    color:white;
+    background-color:darkturquoise;
+    font-size:15px;
+    width:10%;
+    height:35px;
+    float:left;
+    margin-top:-35px;
+    padding-left:7px;
+}
+.btn-enrg{
+    position:relative;
+    float:right;
+    color: white;
+    border-radius:2px  #3addd6;
+    height: 30px;
+    width: 90px;
+    margin-top: 180px;
+    margin-right:8px;
+    background-color:#3addd6;
+}
+.rep1{
+    color:silver;
+    padding-top:10px;
+}
+.rep{
+    height:30px; 
+    width:45%;
+}
+.radio {
+    width:10%;
+    height:30px;
+    float:left; 
+    margin-top:2%;
+}
+.check{
+    width:10%;
+    height:30px;
+    float:left; 
+    margin-top:2%;
+}
+.btn-del{
+    color:white;
+    font-size:15px;
+    width:10%;
+    height:30px;
+    float:left;
+    margin-top:2%;
+}
